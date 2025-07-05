@@ -24,6 +24,6 @@ elif selected2 == "Home":
 st.markdown("""
 ---
 <p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
+    by Debora Maryanti | Powered by Streamlit
 </p>
 """, unsafe_allow_html=True)

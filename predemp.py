@@ -87,10 +87,3 @@ def tampilkan_predem():
             st.error(f"❌ Employees are likely to leave. Probability: {prob:.2f}")
         else:
             st.success(f"✅ Employees are likely to remain. Probability: {1 - prob:.2f}")
-        
-        st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)

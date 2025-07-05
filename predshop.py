@@ -48,10 +48,3 @@ def tampilkan_predshop():
     # Tampilkan hasil
     st.markdown("Prediction Result")
     st.success(f"Purchase Amount Prediction is **${prediction:,.2f}**")
-
-    st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)

@@ -98,10 +98,3 @@ def tampilkan_shopping():
         data=csv,
         file_name='filtered_demographics.csv',
         mime='text/csv')
-
-    st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)

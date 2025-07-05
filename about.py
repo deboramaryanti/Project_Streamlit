@@ -107,10 +107,3 @@ For more information about me:`;
             st.write("📧 Email: [deboramaryanti@gmail.com](mailto:deboramaryanti@gmail.com)")
         elif sub == "Instagram":
             st.markdown("[![Instagram](https://img.shields.io/badge/Instagram-Profile-black)](https://www.instagram.com/db.raa/)")
-    
-    st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)

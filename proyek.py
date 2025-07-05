@@ -71,10 +71,3 @@ def tampilkan_proyek():
         elif sub == "Employee":
             import employee
             employee.tampilkan_employee()
-    
-    st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)

@@ -130,10 +130,3 @@ def tampilkan_employee():
         data=csv,
         file_name='filtered_demographics_employee.csv',
         mime='text/csv')
-    
-    st.markdown("""
----
-<p style='text-align:center;'>
-    Made with ❤️ by Debora Maryanti | Powered by Streamlit
-</p>
-""", unsafe_allow_html=True)
