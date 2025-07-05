@@ -48,3 +48,10 @@ def tampilkan_prediction():
     elif sub == "Employee":
         import predemp
         predemp.tampilkan_predem()
+    
+    st.markdown("""
+---
+<p style='text-align:center;'>
+    Made with ❤️ by Debora Maryanti | Powered by Streamlit
+</p>
+""", unsafe_allow_html=True)

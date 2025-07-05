@@ -2,8 +2,6 @@ import streamlit as st
 from streamlit.components.v1 import html   # ⬅️  tambahkan ini!
 
 def tampilkan_home():
-    st.set_page_config(page_title="Home", layout="centered")
-
     # Animasi teks "Halo 👋"
     st.markdown("""
         <style>

@@ -1,12 +1,16 @@
 import streamlit as st
 from streamlit.components.v1 import html
 from streamlit_option_menu import option_menu
+import os
 
 def tampilkan_about():
     # Buat 3 kolom kosong, taruh gambar di kolom tengah
     col1, col2, col3 = st.columns([1,2,1])
     with col2:
-        st.image("Pict.jpg", width=300)
+        if os.path.exists("Pict.jpg"):
+            st.image("Pict.jpg", width=300)
+        else:
+            st.warning("Profile picture not found.")
 
     # Animasi teks "Halo 👋"
     st.markdown("""
@@ -103,3 +107,10 @@ For more information about me:`;
             st.write("📧 Email: [deboramaryanti@gmail.com](mailto:deboramaryanti@gmail.com)")
         elif sub == "Instagram":
             st.markdown("[![Instagram](https://img.shields.io/badge/Instagram-Profile-black)](https://www.instagram.com/db.raa/)")
+    
+    st.markdown("""
+---
+<p style='text-align:center;'>
+    Made with ❤️ by Debora Maryanti | Powered by Streamlit
+</p>
+""", unsafe_allow_html=True)
