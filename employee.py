@@ -21,11 +21,11 @@ def tampilkan_employee():
 
     with col2:
         avg = df['job_satisfaction'].mean()
-        st.metric("Average Job Satisfaction", f"${avg:,.2f}")
+        st.metric("Average Job Satisfaction", f"{avg:,.2f}")
 
     with col3:
         avg = df['age'].mean()
-        st.metric("Average Age", f"${avg:,.2f}")
+        st.metric("Average Age", f"{avg:,.2f}")
 
     # Departemen dengan karyawan terbanyak
     st.subheader("Department with the Most Employees")
